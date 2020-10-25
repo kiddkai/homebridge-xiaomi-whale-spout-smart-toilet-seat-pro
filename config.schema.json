@@ -1,6 +1,6 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
-  "pluginType": "platform",
+  "pluginAlias": "XiaomiWhaleSpoutSmartToiletSeatPro",
+  "pluginType": "accessory",
   "singular": true,
   "schema": {
     "type": "object",
@@ -9,7 +9,17 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "Xiaomi Whale Spout Toilet Seat"
+      },
+      "ipAddress": {
+        "title": "IP Address",
+        "type": "string",
+        "required": true
+      },
+     "token": {
+        "title": "Token",
+        "type": "string",
+        "required": true
       }
     }
   }
